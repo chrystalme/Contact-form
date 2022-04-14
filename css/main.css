@@ -336,10 +336,10 @@ footer {
   padding: 5%;
 }
 footer > h2 {
-  margin-top: 40px;
+  margin-top: 80px;
   margin-bottom: 20px;
   font-family: 'Inter', sans-serif;
-  font-size: xxx-large;
+  font-size: 40px;
   text-align: center;
 }
 
@@ -373,4 +373,7 @@ button {
   font-size: large;
   padding-top: 20px;
   margin: auto;
+}
+button:hover {
+  background-color: orangered;
 }
