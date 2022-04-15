@@ -2,8 +2,7 @@
 
 # Contact Form
 
-> Description the project
-> This project is a training project for code reviewers at Microverse. It aims to help in the code review process and make one a better code reviewer.
+This is a form built to collect data from site visitors to store their reviews. It contains just 3 fields, the full name, email and message. 
 
 ## Built With
 
@@ -11,7 +10,19 @@
 - Frameworks - None
 - Technologies used - Web Technology
 
-## Authors
+## Getting Startedf
+
+- clone the repository and move to the parent folder
+```
+$ git clone https://github.com/chrystalme/Contact-form.git && cd Contact-form
+```
+- Set up dependencies
+```
+$ npm install
+```
+- Open browser and preview index.html or use Live Server extension
+
+## Author
 
 👤 **Author1**
 
