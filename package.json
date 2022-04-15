@@ -4,5 +4,22 @@
     "stylelint": "13.3.x",
     "stylelint-config-standard": "20.0.x",
     "stylelint-scss": "3.17.x"
-  }
+  },
+  "name": "contact-form",
+  "description": "This repo host an initial code for the tasks performed during the Code Reviewers training.",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrystalme/Contact-form.git"
+  },
+  "author": "Malieze Chrys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrystalme/Contact-form/issues"
+  },
+  "homepage": "https://github.com/chrystalme/Contact-form#readme"
 }

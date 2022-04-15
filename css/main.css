@@ -23,6 +23,63 @@ header {
   color: white;
 }
 
+/* CR Test */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5%;
+}
+
+footer > h2 {
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  margin: 15px 0;
+  border: none;
+  font-family: 'Inter', sans-serif;
+  border-bottom: 1px solid #3c3a39;
+  font-size: large;
+  padding: 12px 2px;
+}
+
+input:focus {
+  border: none;
+  border-bottom: 1px solid #3c3a39;
+}
+
+textarea {
+  font-size: large;
+  font-family: 'Inter', sans-serif;
+  margin-top: 15px;
+  border: none;
+  width: 100%;
+}
+
+button {
+  background-color: #ff6b00;
+  color: ivory;
+  padding: 10px;
+  border: none;
+  font-size: large;
+  padding-top: 20px;
+  margin: auto;
+}
+
+button:hover {
+  background-color: orangered;
+}
+
+/* CR Test */
+
 #logo {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -324,56 +381,4 @@ li {
 
 .skills {
   list-style: inside url('../media/svg/circle.svg');
-}
-
-/* CR Test */
-
-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5%;
-}
-footer > h2 {
-  margin-top: 80px;
-  margin-bottom: 20px;
-  font-family: 'Inter', sans-serif;
-  font-size: 40px;
-  text-align: center;
-}
-
-input {
-  width: 100%;
-  margin: 15px 0;
-  border: none;
-  font-family: 'Inter', sans-serif;
-  border-bottom: 1px solid #3c3a39;
-  font-size: large;
-  padding: 12px 2px;
-}
-input:focus {
-  border: none;
-  border-bottom: 1px solid #3c3a39;
-}
-
-textarea {
-  font-size: large;
-  font-family: 'Inter', sans-serif;
-  margin-top: 15px;
-  border: none;
-  width: 100%;
-}
-
-button {
-  background-color: #ff6b00;
-  color: ivory;
-  padding: 10px;
-  border: none;
-  font-size: large;
-  padding-top: 20px;
-  margin: auto;
-}
-button:hover {
-  background-color: orangered;
 }
